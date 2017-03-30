@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "func-names": ["error", "never"],
+    "react/jsx-filename-extension": 0, // No, JSX belongs to .js files
+    "jsx-quotes": ["error", "prefer-single"],
+    "no-else-return": 0
+  }
+}
